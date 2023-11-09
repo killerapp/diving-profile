@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+    background-image: url('diving-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #FFFFFF;
+
+header {
+    background: linear-gradient(to right, #0C2340, #F1BE48);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+h2 {
+    margin-bottom: 0.5rem;
+}
+
+.video-placeholder {
+    background-color: #F1BE48;
+    padding: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+footer {
+    background: linear-gradient(to right, #0C2340, #F1BE48);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+
+.face-placeholder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+    object-fit: cover;
+}
